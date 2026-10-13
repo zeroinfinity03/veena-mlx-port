@@ -1,0 +1,14 @@
+[project]
+name = "veena-mlx"
+version = "0.1.0"
+description = "Veena (Maya Research) Hindi and English text to speech on Apple MLX: our own port."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "mlx==0.32.3",
+  "numpy",
+  # the tokenizer library Hugging Face transformers uses underneath; reads the official tokenizer.json
+  "tokenizers==0.23.2",
+]
+
+[tool.uv]
+package = false

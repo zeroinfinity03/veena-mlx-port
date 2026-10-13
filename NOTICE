@@ -1,0 +1,10 @@
+veena-mlx-port
+An MLX port of Veena (Hindi and English text to speech) for Apple silicon.
+
+Ported from the official route on Maya Research's model card for Veena
+(https://huggingface.co/maya-research/Veena, Apache License 2.0): Hugging Face
+transformers' Llama and sampling code (Apache License 2.0) and the SNAC codec
+(https://github.com/hubertsiuzdak/snac, MIT License). Model weights are not
+included in this repository.
+
+This port is licensed under the Apache License 2.0 (see LICENSE).
